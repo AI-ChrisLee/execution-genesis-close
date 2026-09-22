@@ -7,7 +7,8 @@ Anything he would have to translate in his head while someone is talking is a de
 
 - 1 screen a section.
 - **The line the founder says out loud, or sends, in bold.** Nothing else is bold.
-- Built only off `squad/business.md` and the demo's `facts.md`. Nothing invented.
+- Built only off `squad/business.md` (THE SENTENCE, WHO, THE PROBLEM, THE PROMISE, PRICE, BUYER WORDS,
+  WHAT HE GETS, OBJECTIONS) and the demo's `facts.md`. Nothing invented.
 - `<angle brackets>` are filled when the file is written. `[square brackets]` are blanks the founder fills
   with the buyer, and they stay in the file.
 - Headings by exact string. Other agents read them by name, and they read the `Book:` link off the last line.
@@ -38,10 +39,35 @@ Anything he would have to translate in his head while someone is talking is a de
 - The price line: his number back, then PRICE line 1 without its words in parentheses, the same numbers
   and term said as a sentence (`$1,500 setup + $300 a month` is said "$1,500 to set up, then $300 a month").
 
+**THE DEMO WALK**, inside THE CALL
+- 3 things, off the demo's `facts.md` and `winner.md`, each 1 bold line said while the screen shows it:
+  the first screen (the lead fact the page opens on, in his words), the money action (what his customer
+  taps, in the button's words), and his own words on the page (a WORDS line). No demo yet: `[the first
+  screen]`, `[what his customer taps]`, `[his words on the page]`.
+- Then WHAT HE GETS, said in 1 breath: the list's lines joined with "and", 25 words at most, ending on
+  THE PROMISE's day. Lines past the 25 words are cut, never the day.
+
+**OBJECTIONS**
+- 1 block per line of OBJECTIONS on `squad/business.md`, in its order: his words as the plain line,
+  the answer as the bold line, said to him in the founder's voice. The answer never adds a fact the
+  page does not hold, never a discount, never a guarantee, never money he will make.
+- No OBJECTIONS on the page (a page written before that section existed): the standing 5, each
+  answered off the page. "I already have one." (THE PROBLEM, in his words: the thing he has is not what
+  the problem is). "How long does it take?" (THE PROMISE line 2). "What if I don't like it?" (the
+  rounds of changes in WHAT HE GETS; none: the demo, which he saw before paying). "That's a lot."
+  (WHAT HE PAYS NOW next to PRICE line 1, as facts). "Who else have you done this for?" (the demo:
+  he sees his own working before he pays; never a client the founder does not have).
+
 **TOO MUCH**
 - `<what comes out>`: 1 piece of THE PROMISE that the fix for THE PROBLEM can live without. THE PROMISE
   has only 1 piece: `[the part he can do without]`, a blank the founder fills before the call.
 - No number in this section.
+
+**NO-SHOW and AFTER THE CALL**
+- `<1 new reason>`: a BUYER WORDS line THE MESSAGE and THE CALL did not use, said about businesses like
+  his, never as a fact about him. None left: 1 cost of THE PROBLEM in new plain words.
+- The day 7 line names a date: `[day]`, a blank the founder fills. No discount, no smaller price, no
+  "just checking in", no "bumping this". The price is never in a message.
 
 **THE YES and CLIENT 2**
 - `<his name>`: the `FIRST NAME` line of `facts.md`. None: `[his name]`.
@@ -79,9 +105,15 @@ He answers in time, not money: **"And what's that time worth to you, in dollars?
 
 Stop asking when he says what it costs him, in his own number.
 
-Share your screen and open the demo.
+Share your screen and open the demo. 3 things, and you say each one while it is on the screen:
 
-**"Here's what I'd do for you: <THE PROMISE line 1, said to him>."**
+**"<the first screen: the lead fact, in his words>"**
+
+**"<the money action: what his customer taps, in the button's words>"**
+
+**"<his own words, on the page>"**
+
+**"Here's what I'd do for you: <THE PROMISE line 1, said to him>. You get <WHAT HE GETS, in 1 breath>, by day <THE PROMISE's day>."**
 
 **"You said this costs you [his number]. It's <PRICE line 1, said as a sentence>."**
 
@@ -91,10 +123,47 @@ No yes: **"So by [day] at [time], you'll tell me yes or no?"**
 
 Never "I'll send you some info." A call that ends on that is a no nobody said out loud.
 
+## OBJECTIONS
+He will say 1 of these. The answer is 1 line, then you stop talking again.
+
+"<objection 1, his words>"
+**"<the answer, said to him>"**
+
+"<objection 2>"
+**"<the answer>"**
+
+"<objection 3>"
+**"<the answer>"**
+
+"<objection 4>"
+**"<the answer>"**
+
+"<objection 5>"
+**"<the answer>"**
+
 ## TOO MUCH
 **"Then we make the job smaller, not cheaper. We take out <what comes out>."**
 
 Never the same work for less. The number for a smaller job is yours to say, not this file's.
+
+## NO-SHOW
+10 minutes past the start, 1 message:
+
+**"Missed you today. Grab another 30 minutes here and I'll walk you through the demo: <booking url>"**
+
+## AFTER THE CALL
+He said he'd tell you by [day]. Nothing came. 3 messages, 1 each on day 1, day 3 and day 7. Never a price in any of them.
+
+Day 1:
+**"Good talking today. You said <the problem> costs you [his number] a month. What I'd do: <THE PROMISE line 1, said to him>, by day <the day>. The demo again, so you can show it to whoever else decides: <Loom link>. Book the start here when you're ready: <booking url>"**
+
+Day 3:
+**"1 more thing I didn't say on the call. <1 new reason>. Still happy to start on [day]."**
+
+Day 7:
+**"I'm taking this off my list on [day]. Say the word before then and it's on. Either way, thanks for the time."**
+
+Then stop. A no that never came is a no.
 
 ## THE YES
 **"Great. You start on [day]."**

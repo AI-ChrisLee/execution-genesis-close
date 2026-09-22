@@ -1,11 +1,14 @@
 ---
 name: execution-genesis-close
-description: Use this when the founder needs the sales script and the booking and payment links, when they type "/execution-genesis-close" or "/execution-genesis-close <business>", or say "build my sales script". It makes a 30-minute booking link through their Cal.com connector and a payment link at their own price through their Stripe connector, then writes squad/sales.md with both links on the last line. It never sends, books or charges.
+description: Use this when the founder needs the sales script and the booking and payment links, when they type "/execution-genesis-close" or "/execution-genesis-close <business>", or say "build my sales script". It makes a 30-minute booking link through their Cal.com connector and a payment link at their own price through their Stripe connector, then writes squad/sales.md: the message that carries the demo, the call with its questions and the demo walk, the 5 objections answered, the yes, the no-show message and the 3 follow-ups, with both links on the last line. It never sends, books or charges.
 ---
 
 # execution-genesis-close
 
-1 output: `squad/sales.md`, the sales script, with a real booking link and a real payment link on its last line.
+1 output: `squad/sales.md`, the sales script: the message, the call with its questions and the demo
+walk, the objections answered, the yes, the no-show line and the 3 follow-ups, with a real booking
+link and a real payment link on its last line. Everything the founder says or sends for money comes
+out of this 1 file.
 
 **The first message of a fresh run** (no `squad/sales.md` on disk) carries this line, word for word:
 
@@ -16,9 +19,12 @@ Open `references/the-script.md` first. Missing: say the agent folder came withou
 ## 1. Read
 
 - `squad/business.md`. Missing: say "Run /execution-genesis-offer first. Your sales script is built off that page." and stop.
-  Take THE SENTENCE, WHO line 1, THE PROBLEM, THE PROMISE, PRICE line 1 and BUYER WORDS.
+  Take THE SENTENCE, WHO line 1, THE PROBLEM, THE PROMISE, PRICE line 1, BUYER WORDS, WHAT HE GETS and
+  OBJECTIONS. A page with no WHAT HE GETS or OBJECTIONS (written before those sections existed) uses
+  the standing lines in `references/the-script.md`, and says so in 1 line.
 - `squad/demos/*/facts.md`. The buyer is the folder the founder names (`/execution-genesis-close maple-family-dental`), else the folder whose `facts.md` changed last. Say which in 1 line: `Writing it for <business>.`
-  Take FIRST NAME, his business, his facts, and the `LOOM <url>` last line. No demo yet: those stay blanks.
+  Take FIRST NAME, his business, his facts, the `LOOM <url>` last line, and `winner.md` beside it for
+  the demo walk. No demo yet: those stay blanks.
 - `.claude/squad-roots.md`: the founder name, the voice sample, the `product word` row. No founder name: the name `get_me` gives. No voice sample: short plain sentences.
 
 ## 2. Check the connectors
@@ -84,6 +90,9 @@ Check before you save:
 - No price in THE MESSAGE or HOW MUCH.
 - No discount, no payment plan, no guarantee, no money he will make.
 - No fact about the buyer that is not in `facts.md`. A blank stays a blank.
+- Every OBJECTIONS block answers off the page: no discount, no guarantee, no client the founder does
+  not have. The 3 AFTER THE CALL messages carry no price and no "just checking in".
+- THE DEMO WALK's 3 lines name things that are on the demo.
 - No em dash, and the bold lines sound like the voice sample.
 
 ## 6. Print
@@ -102,7 +111,8 @@ A change: rewrite that line only. A new number goes through /execution-genesis-o
 
 - The links on the `Book:` and `Pay:` last line are reused, never made twice.
 - PRICE line 1 no longer matches the price line: make a new payment link for the new PRICE (step 4), update the price line and the `Pay:` link, and say so in 1 line.
-- Rewrite THE MESSAGE and CLIENT 2 for the buyer from step 1. Every other section stays as it is on disk.
+- Rewrite THE MESSAGE, THE DEMO WALK, CLIENT 2 and the day 1 message for the buyer from step 1. Every
+  other section stays as it is on disk.
 - The founder names who sent this buyer: THE MESSAGE opens with "<that name> just started with me and said you have the same problem."
 
 ## Never
