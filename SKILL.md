@@ -32,7 +32,7 @@ Open `references/the-script.md` first. Missing: say the agent folder came withou
 Look at the loaded tools before you make anything. A connector is needed only for a link the last line of `squad/sales.md` does not carry yet.
 
 - Cal.com is loaded when tools ending in `get_me`, `get_event_types` and `create_event_type` are on the list.
-- Stripe is loaded when tools ending in `get_stripe_account_info` and `stripe_api_write` are on the list.
+- Stripe is loaded when a tool ending in `stripe_api_write` is on the list, with one ending in `stripe_api_read` or `get_stripe_account_info`.
 
 1 missing: print its message below, word for word, and stop. Both missing: print the Cal.com steps, then the Stripe steps, with "Then quit Claude Code, open it again in this folder, and type /execution-genesis-close again." once at the end. Nothing is made until every connector needed is loaded.
 
@@ -67,7 +67,7 @@ Then quit Claude Code, open it again in this folder, and type /execution-genesis
 
 Stripe's tool names change. Read the live Stripe tool list and use only what is on it.
 
-1. `get_stripe_account_info`: the account's default currency, and whether it can take real money yet (`charges_enabled`).
+1. The account: its default currency, and whether it can take real money yet (`charges_enabled`). Read it with `get_stripe_account_info` when that tool is on the list, else with `stripe_api_read` on the account itself (`GET /v1/account`).
 2. PRICE line 1 without its words in parentheses decides what gets made, the same numbers and nothing else:
    - `one-time`: 1 price, charged once.
    - `a month`: 1 price, recurring every month.
